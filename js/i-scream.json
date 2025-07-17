@@ -13,50 +13,35 @@
         "dark chocolate chips",
         "vanilla extract"
       ],
-      "image" : "https://luayaltaani.github.io/labjs/images/chocolate-mint.svg"
+      "image": "https://luayaltaani.github.io/labjs/images/chocolate-mint.svg"
     },
     {
-      "name" : "Perfect Peach Mango",
-      "calories" : 350,
-      "type" : "sorbet",
-      "ingredients" : [
-        "peach purée",
-        "mango chunks",
-        "clover honey"
-      ],
-      "image" : "https://luayaltaani.github.io/labjs/images/peach-mango.svg"
+      "name": "Perfect Peach Mango",
+      "calories": 350,
+      "type": "sorbet",
+      "ingredients": ["peach purée", "mango chunks", "clover honey"],
+      "image": "https://luayaltaani.github.io/labjs/images/peach-mango.svg"
     },
     {
-      "name" : "strawberry sprinkle",
-      "calories" : 350,
-      "type" : "ice cream",
-      "ingredients" : [
-        "strawberries",
-        "vanilla ice cream",
-        "sprinkles"
-      ],
-      "image" : "https://luayaltaani.github.io/labjs/images/strawberry-sprinkle.svg"
+      "name": "strawberry sprinkle",
+      "calories": 350,
+      "type": "ice cream",
+      "ingredients": ["strawberries", "vanilla ice cream", "sprinkles"],
+      "image": "https://luayaltaani.github.io/labjs/images/strawberry-sprinkle.svg"
     },
     {
-      "name" : "mint",
-      "calories" : 350,
-      "type" : "frozen dairy product",
-      "ingredients" : [
-        "mint extract",
-        "gum drops"
-      ],
-      "image" : "https://luayaltaani.github.io/labjs/images/ice-cream-xtra1.svg"
+      "name": "mint",
+      "calories": 350,
+      "type": "frozen dairy product",
+      "ingredients": ["mint extract", "gum drops"],
+      "image": "https://luayaltaani.github.io/labjs/images/ice-cream-xtra1.svg"
     },
     {
-      "name" : "cookies and cream",
-      "calories" : 370,
-      "type" : "ice cream",
-      "ingredients" : [
-        "vanilla",
-        "cookies",
-        "chocolate sprinkles"
-      ],
-      "image" : "https://luayaltaani.github.io/labjs/images/ice-cream-xtra2.svg"
+      "name": "cookies and cream",
+      "calories": 370,
+      "type": "ice cream",
+      "ingredients": ["vanilla", "cookies", "chocolate sprinkle"],
+      "image": "https://luayaltaani.github.io/labjs/images/ice-cream-xtra2.svg"
     }
   ]
 }
