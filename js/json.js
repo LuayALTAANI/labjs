@@ -49,8 +49,8 @@ function showTopFlavors(jsonObj) {
 
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
         h2.textContent = topFlavors[i].name;
-        p1.textContent = `Calories: ${topFlavors[i].calories}`;
-        p2.textContent = `Type: ${topFlavors[i].type}`;
+        p1.textContent = `Calories: ${topFlavors[i].calories} ${(topFlavors[i].calories > 350) ? "not good for your diet" : "good for your diet"}`;
+        p2.textContent = `Type: ${topFlavors[i].type} ${(topFlavors[i].type === "ice cream") ? "yum!" : "not so yummy"}`;
         img.setAttribute("src", topFlavors[i].image);
         // STEP 10g: Build a loop for the ingredients array in the JSON
         let ingredients = topFlavors[i].ingredients;
